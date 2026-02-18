@@ -17,9 +17,9 @@ monthly_challenges = {
 }
 def monthly_challenges_by_number(request, month):
     months = monthly_challenges.keys()
-    redirect_month = month[months -1]
+    redirect_month = month[months]
     return HttpResponseBadRequest(redirect_month)
-def monthly_challenges(request, month):
+def monthly_challenge(request, month):
     try:
         challenge_text = monthly_challenges[month]
         return HttpResponse(challenge_text)

@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e74ade5d-0786-4045-8f39-21e237373bb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/monthly_challenges/challenges/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_and_django_start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_and_django_start.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monthly_challenges/challenges/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/monthly_challenges/challenges/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monthly_challenges/challenges/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/monthly_challenges/challenges/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monthly_challenges/monthly_challenges/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/monthly_challenges/monthly_challenges/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,5 +58,16 @@
       <updated>1771411162015</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/monthly_challenges/monthly_challenges/urls.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
