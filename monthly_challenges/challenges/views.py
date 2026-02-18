@@ -19,12 +19,13 @@ monthly_challenges = {
 def monthly_challenges_by_number(request, month):
     months = list(monthly_challenges.keys())
     if month > len(months):
-        months = reverse(month)
+
         return HttpResponseBadRequest("Invalid month")
+
     redirect_month = months[month -1]
+    redirect_path = reverse("month_", args=[redirect_month])
 
-
-    return HttpResponseRedirect("/challenges/" + redirect_month)
+    return HttpResponseRedirect(redirect_path)
 def monthly_challenge(request, month):
     try:
         challenge_text = monthly_challenges[month]
