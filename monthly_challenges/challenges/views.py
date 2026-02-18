@@ -16,9 +16,11 @@ monthly_challenges = {
     "december": "reflect on your year and plan one goal for next year."
 }
 def monthly_challenges_by_number(request, month):
-    months = monthly_challenges.keys()
-    redirect_month = month[months]
-    return HttpResponseBadRequest(redirect_month)
+    months = list(monthly_challenges.keys())
+    if month > len(months):
+        return HttpResponseBadRequest("Invalid month")
+    redirect_month = months[month -1]
+    return HttpResponseRedirect("/challenges/" + redirect_month)
 def monthly_challenge(request, month):
     try:
         challenge_text = monthly_challenges[month]
