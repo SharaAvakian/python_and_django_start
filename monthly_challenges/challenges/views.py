@@ -1,6 +1,9 @@
+from http.client import responses
+
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, HttpResponseRedirect, HttpResponseBadRequest
 from django.urls import reverse
+from django.template.loader import render_to_string
 # Create your views here.
 monthly_challenges_dict = {
     "january": "start the year strong: do 20 push-ups every morning.",
@@ -37,6 +40,8 @@ def monthly_challenge(request, month):
 
 
 def challenges(request):
-    return render(request, "challenges/index.html", {
-        "monthly_challenges": monthly_challenges_dict
-    })
+    # return render(request, "challenges/index.html", {
+    #     "monthly_challenges": monthly_challenges_dict
+    # })
+    response_data = render_to_string("challenges/index.html", {    "monthly_challenges": monthly_challenges_dict})
+    return HttpResponse(response_data)
