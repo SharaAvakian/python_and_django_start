@@ -31,17 +31,14 @@ def monthly_challenges_by_number(request, month):
     return HttpResponseRedirect(redirect_path)
 def monthly_challenge(request, month):
     try:
-        challenge_text = monthly_challenges_dict[month]
-        response_data = f"<h1>{challenge_text}</h1>"
-        return HttpResponse(response_data)
+        challenges_text = monthly_challenges_dict[month]
+        return render(request, "challenges/monthly_challenges.html", {"text": challenges_text,"month": month},)
     except KeyError:
         return HttpResponseBadRequest("Invalid month")
 
 
 
 def challenges(request):
-    # return render(request, "challenges/index.html", {
-    #     "monthly_challenges": monthly_challenges_dict
-    # })
-    response_data = render_to_string("challenges/index.html", {    "monthly_challenges": monthly_challenges_dict})
-    return HttpResponse(response_data)
+    return render(request, "challenges/index.html", {"monthly_challenges": monthly_challenges_dict})
+    # response_data = render_to_string("challenges/index.html", {    "monthly_challenges": monthly_challenges_dict})
+    # return HttpResponse(response_data)
