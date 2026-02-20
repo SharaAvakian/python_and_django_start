@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Challenges</title>
-</head>
-<body>
+{%extends 'challenges/base.html'%}
+
+    <title>{%block title%}monthly challeneges{%endblock%}</title>
+
+{%block content%}
     <p>
         Welcome to the challenges page. Choose your month:
     </p>
@@ -18,5 +16,4 @@
 {% empty %}
     <p>No months found.</p>
 {% endfor %}
-</body>
-</html>
+{%endblock%}
