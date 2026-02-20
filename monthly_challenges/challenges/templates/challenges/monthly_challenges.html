@@ -3,6 +3,7 @@
     <title>{%block title%}{{month|title}} challenges{%endblock%}</title>
 {%block content%}
  <div>
+     {%include "challenges/includes/nav.html" %}
      <h1>This is the {{month|title}} challenge </h1>
      <p>{{text}}</p>
  </div>
