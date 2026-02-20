@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Challenges</title>
+</head>
+<body>
+    <p>
+        Welcome to the challenges page. Choose your month:
+    </p>
+
+  {% for month in monthly_challenges %}
+    <h3>
+        <a href="{% url 'month_' month %}">
+            {{ month|title }}
+        </a>
+    </h3>
+{% empty %}
+    <p>No months found.</p>
+{% endfor %}
+</body>
+</html>

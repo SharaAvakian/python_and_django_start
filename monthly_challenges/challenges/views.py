@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse, HttpResponseRedirect, HttpResponseBadRequest
 from django.urls import reverse
 # Create your views here.
-monthly_challenges = {
+monthly_challenges_dict = {
     "january": "start the year strong: do 20 push-ups every morning.",
     "february": "write down one thing you're grateful for each day.",
     "march": "take a 15-minute walk outside daily to enjoy spring.",
@@ -17,7 +17,7 @@ monthly_challenges = {
     "december": "reflect on your year and plan one goal for next year."
 }
 def monthly_challenges_by_number(request, month):
-    months = list(monthly_challenges.keys())
+    months = list(monthly_challenges_dict.keys())
     if month > len(months):
 
         return HttpResponseBadRequest("Invalid month")
@@ -28,10 +28,15 @@ def monthly_challenges_by_number(request, month):
     return HttpResponseRedirect(redirect_path)
 def monthly_challenge(request, month):
     try:
-        challenge_text = monthly_challenges[month]
-        return HttpResponse(challenge_text)
+        challenge_text = monthly_challenges_dict[month]
+        response_data = f"<h1>{challenge_text}</h1>"
+        return HttpResponse(response_data)
     except KeyError:
         return HttpResponseBadRequest("Invalid month")
 
 
 
+def challenges(request):
+    return render(request, "challenges/index.html", {
+        "monthly_challenges": monthly_challenges_dict
+    })
