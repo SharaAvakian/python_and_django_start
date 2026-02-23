@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e74ade5d-0786-4045-8f39-21e237373bb3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/monthly_challenges/challenges/static/challenges/challenges.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monthly_challenges/challenges/templates/challenges/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monthly_challenges/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_and_django_start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_and_django_start.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monthly_challenges/monthly_challenges/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/monthly_challenges/monthly_challenges/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monthly_challenges/challenges/templates/challenges/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/monthly_challenges/challenges/templates/challenges/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monthly_challenges/challenges/templates/challenges/includes/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/monthly_challenges/challenges/templates/challenges/includes/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monthly_challenges/challenges/templates/challenges/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/monthly_challenges/challenges/templates/challenges/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monthly_challenges/challenges/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/monthly_challenges/challenges/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monthly_challenges/monthly_challenges/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/monthly_challenges/monthly_challenges/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,11 +26,29 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SharaAvakian&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SharaAvakian/python_and_django_start.git&quot;,
+    &quot;accountId&quot;: &quot;817947ef-2965-48b1-a5f9-7b0d3d1bc64e&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -33,17 +60,38 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/monthly_challenges" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-07523f343e4f-968fe969f28a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.28539.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.31033.139" />
+        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
       </set>
     </attachedChunks>
   </component>
@@ -54,7 +102,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771411162015</updated>
+      <workItem from="1771806808108" duration="1087000" />
+      <workItem from="1771807903666" duration="3710000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
