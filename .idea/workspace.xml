@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e74ade5d-0786-4045-8f39-21e237373bb3" name="Changes" comment="day 6 0.1">
-      <change afterPath="$PROJECT_DIR$/monthly_challenges/challenges/static/challenges/challenges.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monthly_challenges/challenges/templates/challenges/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monthly_challenges/static/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python_and_django_start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_and_django_start.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monthly_challenges/challenges/templates/challenges/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/monthly_challenges/challenges/templates/challenges/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monthly_challenges/challenges/templates/challenges/includes/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/monthly_challenges/challenges/templates/challenges/includes/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monthly_challenges/challenges/templates/challenges/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/monthly_challenges/challenges/templates/challenges/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monthly_challenges/challenges/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/monthly_challenges/challenges/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monthly_challenges/monthly_challenges/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/monthly_challenges/monthly_challenges/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_store/book_store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_store/book_store/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +62,7 @@
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;models&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -90,8 +83,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.31033.139" />
-        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
+        <option value="bundled-python-sdk-07523f343e4f-968fe969f28a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.28539.27" />
       </set>
     </attachedChunks>
   </component>
