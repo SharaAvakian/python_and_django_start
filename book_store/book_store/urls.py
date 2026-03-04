@@ -1,5 +1,5 @@
 """
-URL configuration for monthly_challenges project.
+URL configuration for book_store project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/6.0/topics/http/urls/
@@ -20,5 +20,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('challenges/',include('challenges.urls')),
+    path('',include('book_outlet.urls')),
 ]
